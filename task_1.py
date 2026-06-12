@@ -1,4 +1,4 @@
-with open("input.txt", "r", encoding="utf-8") as file:
+with open("resource/input.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 line_count = len(lines)

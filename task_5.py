@@ -1,4 +1,4 @@
-with open("words.txt", "r", encoding="utf-8") as file:
+with open("resource/words.txt", "r", encoding="utf-8") as file:
     words = file.read().splitlines()
 
 alphabetical = sorted(words)

@@ -3,7 +3,7 @@ word = input("Введите слово для поиска: ")
 count = 0
 line_numbers = []
 
-with open("text.txt", "r", encoding="utf-8") as file:
+with open("resource/text.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 for i, line in enumerate(lines, start=1):
